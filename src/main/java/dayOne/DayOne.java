@@ -17,14 +17,24 @@ public class DayOne {
         String line;
         List<Integer> frequenciesRead = new ArrayList<>();
 
+        List<Integer> tempTotalList = new ArrayList<>();
+
         while ((line = br.readLine()) != null) {
             frequenciesRead.add(Integer.parseInt(line));
+            Integer tempTotal = frequenciesRead.stream().collect(Collectors.summingInt(Integer::intValue));
+            tempTotalList.add(tempTotal);
         }
         br.close();
         fr.close();
 
+        firstDouble(tempTotalList);
+
         Integer totalFrequency = frequenciesRead.stream().collect(Collectors.summingInt(Integer::intValue));
 
         return totalFrequency;
+    }
+
+    public static Integer firstDouble(List<Integer> frequencies) {
+        return null;
     }
 }

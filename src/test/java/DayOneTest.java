@@ -5,6 +5,8 @@ import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -61,5 +63,23 @@ public class DayOneTest {
         Integer actual = dayOne.resultingFrequency(thirdExample);
 
         assertThat(actual, equalTo(582));
+    }
+
+    @Test
+    public void firstDouble_returnsFirstDuplicateOfListOfFrequencies() throws IOException {
+        List<Integer> tempTotalList = new ArrayList<>();
+
+        tempTotalList.add(1);
+        tempTotalList.add(-1);
+        tempTotalList.add(2);
+        tempTotalList.add(3);
+        tempTotalList.add(4);
+        tempTotalList.add(2);
+
+        dayOne = new dayOne.DayOne();
+
+        Integer actual = dayOne.firstDouble(tempTotalList);
+
+        assertThat(actual, equalTo(2));
     }
 }
