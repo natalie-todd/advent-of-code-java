@@ -11,7 +11,6 @@ import java.util.List;
 import static java.util.Arrays.asList;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
-import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
 public class DayOneTest {
@@ -75,6 +74,17 @@ public class DayOneTest {
         Integer actual = dayOne.firstDouble(tempTotalList);
 
         assertThat(actual, equalTo(2));
+    }
+
+    @Test
+    public void firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes() throws IOException {
+        String input = "src/main/java/dayOne/dayOneFour.txt";
+
+        dayOne = new dayOne.DayOne();
+
+        Integer actual = dayOne.firstDouble(dayOne.tempTotalList(input));
+
+        assertThat(actual, equalTo(10));
     }
 
     @Test

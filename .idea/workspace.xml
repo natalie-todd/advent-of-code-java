@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74eda3bd-5596-4590-98ab-9ff2532603f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dayOne/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dayOne/DayOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DayOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DayOneTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,14 +45,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="2888" />
+          <entry key="java" value="2954" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="2888" />
+          <entry key="JAVA" value="2954" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -61,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DayOneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1442">
-              <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+            <state relative-caret-position="722">
+              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#436#437#0" expanded="true" />
@@ -111,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dayOne/DayOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="1173">
               <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -446,8 +445,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dayOne/dayOneTxtThree.txt" />
         <option value="$PROJECT_DIR$/src/main/java/dayOne/Practice.java" />
         <option value="$PROJECT_DIR$/src/main/java/dayOne/dayOneInput.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/DayOneTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dayOne/DayOne.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DayOneTest.java" />
       </list>
     </option>
   </component>
@@ -505,7 +504,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573183633381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573315457260" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -529,7 +528,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput">
+  <component name="RunManager" selected="JUnit.DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes">
     <configuration name="DayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dayOne.DayOne" />
       <module name="advent_main" />
@@ -563,11 +562,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DayOneTest.resultingFrequency_addsAllFrequencies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DayOneTest" />
-      <option name="METHOD_NAME" value="resultingFrequency_addsAllFrequencies" />
+      <option name="METHOD_NAME" value="firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -584,19 +583,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DayOneTest.resultingFrequency_addsAllFrequencies" />
       <item itemvalue="Application.DayOne" />
       <item itemvalue="JUnit.DayOneTest.resultingFrequency_addsAllFrequencies_fromFile" />
       <item itemvalue="JUnit.DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequencies" />
       <item itemvalue="JUnit.DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput" />
+      <item itemvalue="JUnit.DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes" />
         <item itemvalue="JUnit.DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput" />
         <item itemvalue="JUnit.DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequencies" />
         <item itemvalue="Application.DayOne" />
         <item itemvalue="JUnit.DayOneTest.resultingFrequency_addsAllFrequencies_fromFile" />
-        <item itemvalue="JUnit.DayOneTest.resultingFrequency_addsAllFrequencies" />
       </list>
     </recent_temporary>
   </component>
@@ -614,24 +613,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DayOneTest_resultingFrequency_addsAllFrequencies - 2019.11.07 at 20h 11m 42s.xml">
-      <configuration name="DayOneTest.resultingFrequency_addsAllFrequencies" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DayOneTest_resultingFrequency_addsAllFrequencies - 2019.11.07 at 20h 12m 11s.xml">
-      <configuration name="DayOneTest.resultingFrequency_addsAllFrequencies" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DayOneTest_tempTotalList_returnsAllTempFrequencyTotals - 2019.11.07 at 20h 14m 04s.xml">
-      <configuration name="DayOneTest.tempTotalList_returnsAllTempFrequencyTotals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DayOneTest_resultingFrequency_addsAllFrequencies - 2019.11.07 at 20h 15m 29s.xml">
-      <configuration name="DayOneTest.resultingFrequency_addsAllFrequencies" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DayOneTest_resultingFrequency_addsAllFrequencies - 2019.11.07 at 20h 15m 37s.xml">
-      <configuration name="DayOneTest.resultingFrequency_addsAllFrequencies" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DayOneTest_resultingFrequency_addsAllFrequencies - 2019.11.07 at 20h 15m 56s.xml">
-      <configuration name="DayOneTest.resultingFrequency_addsAllFrequencies" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DayOneTest_resultingFrequency_addsAllFrequencies_fromFile - 2019.11.07 at 20h 22m 16s.xml">
       <configuration name="DayOneTest.resultingFrequency_addsAllFrequencies_fromFile" configurationId="JUnit" />
     </history-entry>
@@ -644,10 +625,27 @@
     <history-entry file="DayOneTest_firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput - 2019.11.07 at 20h 24m 06s.xml">
       <configuration name="DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DayOneTest_firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput - 2019.11.07 at 20h 26m 02s.xml">
+      <configuration name="DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DayOneTest_firstDouble_returnsFirstDuplicateOfListOfFrequencies - 2019.11.07 at 20h 26m 28s.xml">
+      <configuration name="DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequencies" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DayOneTest_firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput - 2019.11.07 at 20h 26m 54s.xml">
+      <configuration name="DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DayOneTest_firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput - 2019.11.07 at 20h 27m 15s.xml">
+      <configuration name="DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DayOneTest_firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput - 2019.11.09 at 08h 57m 42s.xml">
+      <configuration name="DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DayOneTest_firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes - 2019.11.09 at 08h 59m 34s.xml">
+      <configuration name="DayOneTest.firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14735337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -725,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dayOne/dayOneTxtThree.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dayOne/dayOneTxtOne.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -746,6 +737,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dayOne/dayOneTxtThree.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dayOne/dayOneTxtTwo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -753,24 +751,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DayOneTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dayOne/DayOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1442">
-          <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+        <state relative-caret-position="1173">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dayOne/DayOne.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DayOneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="722">
+          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
           </folding>
         </state>
       </provider>
