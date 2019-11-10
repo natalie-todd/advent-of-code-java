@@ -59,42 +59,24 @@ public class DayOneTest {
     }
 
     @Test
-    public void firstDouble_returnsFirstDuplicateOfListOfFrequencies() throws IOException {
-        List<Integer> tempTotalList = new ArrayList<>();
-
-        tempTotalList.add(1);
-        tempTotalList.add(-1);
-        tempTotalList.add(2);
-        tempTotalList.add(3);
-        tempTotalList.add(4);
-        tempTotalList.add(2);
-
-        dayOne = new dayOne.DayOne();
-
-        Integer actual = dayOne.firstDouble(tempTotalList);
-
-        assertThat(actual, equalTo(2));
-    }
-
-    @Test
     public void firstDouble_returnsFirstDuplicateOfListOfFrequencies_whenRunningThroughListMultipleTimes() throws IOException {
         String input = "src/main/java/dayOne/dayOneFour.txt";
 
         dayOne = new dayOne.DayOne();
 
-        Integer actual = dayOne.firstDouble(dayOne.tempTotalList(input));
+        Integer actual = dayOne.firstDouble(input);
 
         assertThat(actual, equalTo(10));
     }
 
     @Test
     public void firstDouble_returnsFirstDuplicateOfListOfFrequenciesForInput() throws IOException {
-        String input = "src/main/java/dayOne/dayOneTxtTwo.txt";
+        String input = "src/main/java/dayOne/dayOneInput.txt";
 
-        dayOne = new DayOne();
+        dayOne = new dayOne.DayOne();
 
-        Integer actual = dayOne.firstDouble(dayOne.tempTotalList(input));
+        Integer actual = dayOne.firstDouble(input);
 
-        assertThat(actual, equalTo(null));
+        assertThat(actual, equalTo(488));
     }
 }

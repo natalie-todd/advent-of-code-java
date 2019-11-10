@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -29,7 +28,6 @@ public class DayOne {
         fr.close();
 
         resultingFrequency(tempTotalList);
-        firstDouble(tempTotalList);
 
         return tempTotalList;
     }
@@ -41,16 +39,32 @@ public class DayOne {
         return totalFrequency;
     }
 
-    public static Integer firstDouble(List<Integer> frequencies) {
-        Integer firstDuplicateFrequency = frequencies.stream()
-                .filter(freq -> Collections.frequency(frequencies, freq) > 1)
-                .findFirst()
-                .orElse(null);
+    public static Integer firstDouble(String fileName) throws IOException {
 
-        return firstDuplicateFrequency;
+        List<Integer> tempTotalList = new ArrayList<>();
+        Integer repeatedValue = null;
+        int count = 0;
+        List<Integer> frequenciesRead = new ArrayList<>();
+
+        while (count < 10 && repeatedValue == null) {
+            File file = new File(fileName);
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+            String line;
+
+            while ((line = br.readLine()) != null && repeatedValue == null) {
+                frequenciesRead.add(Integer.parseInt(line));
+                Integer tempTotal = frequenciesRead.stream().collect(Collectors.summingInt(Integer::intValue));
+                if(tempTotalList.contains(tempTotal)) {
+                    repeatedValue = tempTotal;
+                }
+                tempTotalList.add(tempTotal);
+
+            }
+            br.close();
+            fr.close();
         }
 
-    public static void main(String[] args) throws IOException {
-        System.out.println(firstDouble(tempTotalList("src/main/java/dayOne/dayOneInput.txt")));
+        return repeatedValue;
     }
 }
